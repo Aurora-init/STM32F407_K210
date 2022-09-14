@@ -1,0 +1,14 @@
+1.FSMC用于LCD屏幕驱动
+1.1.TIM3用于LCD屏幕us延时
+1.2.PB15用于LCD屏幕背光
+
+2.TIM5用于DHT11us延时
+2.PD6用于DHT11数据总线传输
+2.1.USART6用于串口打印及printf重定向
+
+3.PC10用于SR501人体红外传感器输入
+3.1.PD7用于BEEP蜂鸣器驱动
+
+4.USART1用于ESP01SWiFi模块通信
+
+5.PG15用于LED控制

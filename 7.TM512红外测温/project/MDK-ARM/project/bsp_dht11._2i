@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\Bsp
+-I.\RTE\_project
+-ID:\KEIL_pack\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+-ID:\KEIL_pack\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx -DSTM32_THREAD_SAFE_STRATEGY="2"
+-o project\bsp_dht11.o --omf_browse project\bsp_dht11.crf --depend project\bsp_dht11.d --feedback "project\project.fed" "..\Bsp\DHT11\bsp_dht11.c"
